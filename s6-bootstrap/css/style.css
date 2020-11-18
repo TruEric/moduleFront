@@ -1,0 +1,44 @@
+.bg-blue{
+    background-color: blue;
+    border: solid 3px red;
+}
+.bg-orange{
+    background-color: orange;
+    border: solid 3px greenyellow;
+}
+.bg-peru{
+    background-color: peru;
+    border: solid 3px red;
+}
+.bg-coral{
+    background-color: coral;
+    border: solid 3px blue;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-violet{
+    background-color: violet;
+    border: solid 3px black;
+}
+.h10{
+    height: 10vh;
+}
+.h15{
+    height: 15vh;
+}
+.h25{
+    height: 25vh;
+}
+.h50{
+    height: 100%;
+}
+
+@media (min-width: 768px){
+.h15{
+    height: 100%;    
+}
+.h50{
+    height: 50vh;
+}
+}

@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container-flex {
+  background-color: #00a3ff;
+}
+
+.container-flex .square {
+  background-color: #ccc;
+  color: white;
+}
+
+form {
+  width: 40vw;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1.5px solid gray;
+  border-radius: 8px;
+  background-color: #cbcbdf;
+}
+
+form .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 60px;
+}
+
+form .form-group label {
+  margin-right: 20px;
+  width: 20%;
+}
+
+form .form-group input {
+  width: 80%;
+  height: 30px;
+  border-radius: 25px;
+  border: none;
+  padding: 10px 20px;
+  -webkit-box-shadow: 3px 4px 4px -2px black;
+          box-shadow: 3px 4px 4px -2px black;
+}
+
+form .form-group input:focus {
+  outline: none;
+}
+
+form .form-group button {
+  background-color: lightseagreen;
+  font-weight: bolder;
+  color: white;
+  width: 100%;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  -webkit-box-shadow: 3px 4px 4px -2px black;
+          box-shadow: 3px 4px 4px -2px black;
+}
+
+form .form-group button:hover {
+  cursor: pointer;
+}
+
+form .form-group button:focus {
+  opacity: .8;
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */

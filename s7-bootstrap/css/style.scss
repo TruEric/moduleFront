@@ -1,0 +1,59 @@
+*{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+}
+@media only screen and (min-width: 375px){
+    .btn-primary {
+        color: #fff;
+        background: linear-gradient(to right,hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+        width: 14%;
+        height: 40px;
+        margin: 10px 30px;
+        padding: 0px 20px;
+        border-radius: 25px;
+        border: none;
+        display: none;
+    }
+    .card-img-top{
+        width: 25%;
+        height: auto;
+        margin: 1rem;
+        margin: 10px auto;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    .logo-top{
+        margin: 0px 4%;
+    }
+    .btn-primary {
+        color: #fff;
+        background: linear-gradient(to right,hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+        width: 14%;
+        height: 40px;
+        margin: 10px 30px;
+        padding: 0px 20px;
+        border-radius: 25px;
+        border: none;
+        display: block;
+    }
+    button{
+        opacity: 100;
+    }
+    button:hover{
+        filter:alpha(opacity=70);
+        -moz-opacity:.70;
+        opacity:.70;
+    }
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        margin: 0px 23%;
+    }
+    .card-img-top{
+        width: 4rem;
+        height: auto;
+        margin: 1rem;
+    }
+}
